@@ -17,8 +17,11 @@
 			<ul class="nav navbar-nav">
 				<li><a href="<%=request.getContextPath() %>/list">USER TABLE</a></li>
 				<li><a href="<%=request.getContextPath() %>/new">ADD USER</a></li>
+				
+				<!-- 
 				<li><a href="<%=request.getContextPath() %>/update">UPDATE USER</a></li>
-				<li><a href="<%=request.getContextPath() %>/delete">DELETE USER</a></li>
+				<li><a href="<%=request.getContextPath() %>/delete">DELETE USER</a></li> 
+				-->
 			</ul>
 		</div>
 		</nav>

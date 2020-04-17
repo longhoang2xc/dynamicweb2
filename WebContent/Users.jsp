@@ -25,6 +25,7 @@
 					<th>Name</th>
 					<th>Address</th>
 					<th>Mobile</th>
+					<th></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -35,6 +36,11 @@
 						<td><c:out value="${users.name}" /></td>
 						<td><c:out value="${users.address}" /></td>
 						<td><c:out value="${users.mobile}" /></td>
+						<td>
+							<a href="<%=request.getContextPath() %>/update">Edit</a>
+							<br>
+                    		<a href="<%=request.getContextPath() %>/delete">Delete</a>
+						</td>
 				</c:forEach>
 			</tbody>
 		</table>

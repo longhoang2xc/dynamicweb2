@@ -41,7 +41,13 @@ public class UserServlet extends HttpServlet {
 			case "/new":
 				showNewForm(request,response);
 				break;
-
+			case "/insert":
+				insertUser(request,response);
+				break;
+			case "/delete":
+				deleteUser(request,response);
+				break;
+			
 			default:
 				listUsers(request, response);
 				break;
@@ -99,7 +105,10 @@ public class UserServlet extends HttpServlet {
 
 	// TO-DO: Implement deleteUser() method for deleting existing user
 	@SuppressWarnings("unused")
-	private void deleteUser(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException {
-
+	private void deleteUser(HttpServletRequest request, HttpServletResponse response) 
+			throws SQLException, IOException {
+//		int id = request.getParameter("id");
+//		userDAO.deletetUser(User);
+//		response.sendRedirect("");
 	}
 }

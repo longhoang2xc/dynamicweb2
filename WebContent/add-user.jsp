@@ -21,12 +21,6 @@
 		</fieldset>
 		<button type="submit" class="btn btn-success">ADD</button>
 		
-<!--	Name: <input type="text" name="name"> 		<br><br>
-		Address: <input type="text" name="address"> <br><br>
-		Mobile: <input type="text" name="mobile"> 	<br><br>
-		
-		<input type="submit" value="add"> 
--->
 	</form>
 	
 </body>
